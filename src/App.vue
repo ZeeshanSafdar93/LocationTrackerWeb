@@ -1,12 +1,26 @@
 <template>
   <div id="app">
+    <TopHeader/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <img alt="Vue logo" src="./assets/map.png" style="height:200px;width:200;">
+    <h1>Route Tracker</h1>
     <router-view/>
   </div>
 </template>
+
+<script>
+import { Component, Vue } from 'vue-property-decorator';
+import TopHeader from '@/components/TopHeader.vue';
+@Component({
+  components: {
+    TopHeader,
+  },
+})
+export default class Home extends Vue {}
+</script>
 
 <style>
 #app {
