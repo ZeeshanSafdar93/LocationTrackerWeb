@@ -53,8 +53,6 @@ export default class App extends Vue {
         // ...
         console.log(user);
 
-        //let token: string = res.user?.ma;
-        // let userId: string = res.user?.uid;
       this.$router.replace({name: "MainPage"});
       })
       .catch((error) => {

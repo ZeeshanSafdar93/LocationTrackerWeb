@@ -1,4 +1,6 @@
-# vue-login-app
+Location Tracker Web App using Vue js
+
+# Location Tracker Web App
 
 ## Project setup
 ```
